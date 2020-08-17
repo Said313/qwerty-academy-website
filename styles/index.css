@@ -1,0 +1,584 @@
+
+
+/*Main Background--------------------------------------------*/
+#mainBack{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/possible-background.jpeg) center center no-repeat;
+    background-size:auto 120%;
+}
+
+#mainBack-contents{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6) 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainh1div{
+    text-align: center;
+    padding-top: 80px;
+}
+
+#mainBack-contents div:nth-child(2){
+    text-align: center;
+    line-height: 30px;
+    padding: 0px 50px;
+    margin: 5vh 0px;
+}
+
+#mainh1div h1{
+    line-height: 1em;
+}
+
+#mainh1div div{
+    display: flex;
+    flex-direction: column;
+    font-size: 65px;
+    color: white;
+    font-family: "Rockwell Nova", "Times New Roman", serif;
+}
+
+#mainBack-contents h3{
+    display: block;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Constantia", "Open Sans", sans-serif;
+    padding: 15px 60px;
+    background-color: #ffc000;
+    color: black;
+    box-shadow: 0 5px #685811;
+}
+
+.button button:hover{
+    background-color: #ae8e0e;
+    color: #262626;
+    cursor: pointer;
+}
+
+.button button:active {
+    background-color: #bfa11b;
+    box-shadow: 0 2px #685811;
+    transform: translateY(3px);
+    cursor: pointer;
+}
+
+/*Course Section*/
+
+#courseSection{
+    background-color: #dfe0df;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.header2{
+    padding-top: 60px;
+    color: #ffc000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.header2 h2{
+    padding-bottom: 40px;
+    text-shadow: 0px 0px 2px black;
+}
+
+#listOfCourses{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courseWrapper{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course{
+    background-color: #dfe0df;
+    height: 300px;
+    width: 270px;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.course:hover{
+    background-color: white;
+    box-shadow: 7px 7px 10px #828282;
+    cursor: pointer;
+}
+
+.course p{
+    margin-top: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+#nufypet{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#nufypet img{
+    width: 125px;
+}
+
+#sat{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#sat img{
+    width: 130px;
+}
+
+#ielts{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#ielts img{
+    width: 130px;
+}
+
+#toefl{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#toefl img{
+    width: 130px;
+}
+
+#english{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#english img{
+    width: 130px;
+}
+
+#ent{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#ent img{
+    width: 130px;
+}
+
+#nish{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#nish img{
+    width: 130px;
+}
+
+#school{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#school img{
+    width: 130px;
+}
+
+
+/*Teachers section-------------------------------------------------*/
+.teacherWrapper a{
+    text-decoration: none;
+    color: white;
+}
+
+#teacherSection{
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+#teacherSection h2{
+    text-shadow: 0px 0px 3px white;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+#listOfTeachers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teacherWrapper{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imgframe{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#firstTeacher .imgframe{
+    background: white url(../images/umid.jpg) no-repeat;
+    background-size: 110% 110%;
+    background-position: top left;
+}
+
+#secondTeacher .imgframe{
+    background: white url(../images/mokhira.jpeg) no-repeat;
+    background-size: 120% 120%;
+    background-position: -25px 0px;
+}
+
+#thirdTeacher .imgframe{
+    background: white url(../images/said.jpg) no-repeat;
+    background-size: 110%;
+    background-position: center -75px;
+}
+
+#fourthTeacher .imgframe{
+    background: white url(../images/maftuna.jpg) no-repeat;
+    background-size: 110% 110%;
+    background-position: -20px 0px;
+}
+
+#fifthTeacher .imgframe{
+    background: white url(../images/mukaddam.jpg) no-repeat;
+    background-size: 110% 110%;
+    background-position: 0px 0px;
+}
+
+#sixthTeacher .imgframe{
+    background: white url(../images/gulnaz.jpg) no-repeat;
+    background-size: 110% 110%;
+    background-position: -20px 0px;
+}
+
+.teacher{
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    max-width: 450px;
+    clip-path: circle(30% at 50% 41.6%);
+    transition: all 1.0s ease-in-out;
+    
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    
+    
+    border-radius: 50px;
+    
+    --col: rgba(0, 0, 0, 0.7);
+}
+
+.teacher:hover{
+    clip-path: circle(100%);
+    --col: rgba(0, 0, 0, 0.0);
+/*    */
+    cursor: pointer;
+}
+
+
+.imgframe::before{
+    content: " ";
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 8;
+    border-radius: 50%;
+    background: var(--col);
+}
+
+.imgframe:hover{
+/*    box-shadow: 0px 0px 10px white;*/
+}
+
+
+.teacherText{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div .teacherText:nth-child(1){
+    height: 100px;
+}
+
+
+.teacher h3{
+    font-size: 27px;
+    text-align: center;
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.teacher h4{
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.teacher h5{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+
+/*Свяжитесь с нами-------------------------------------------------*/
+
+#callform{
+    background: #006E61;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 3px 0px white;
+}
+
+#callform-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#callform h2{
+    display: block;
+    text-align: center;
+    color: #ffc000;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 75%;
+    align-self: center;
+}
+
+#callform h3{
+    color: #ffc000;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#callform form{
+    color: #DFE0DF;
+}
+
+#nameAndPhone{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nameAndPhone div{
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+.textinput{
+    width: 340px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    background-color: #DFE0DF;
+    border-radius: 30px;
+    border: none;
+}
+
+#politics{
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 30px;
+}
+
+#checkbox{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+#callform form>div:nth-child(3){
+    text-align: center;
+}
+
+#politicsPdf{
+    color: blue;
+    text-decoration: underline;
+}
+
+#politicsPdf:hover{
+    cursor: pointer;
+}
+
+.yellowButton{
+    margin-top: 30px;
+}
+
+.yellowButton input{
+    color: black;
+    background: #ffc000;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 7px 1px white; 
+}
+
+.yellowButton input:hover{
+    background: #e7dd4f;
+    color: #4c4c4c;
+}
+
+
+
+
+@media only screen and (max-width:970px){
+    
+    #mainBack-contents h1{
+        font-size: 1.4em;
+        padding: 10px 0px;
+    }
+    
+    #mainBack-contents h3{
+        font-size: 22px;
+    }
+    
+}
+
+
+@media only screen and (max-width:530px){
+    
+/*    Main Background of mobile-----------------------*/
+    
+    .button button{
+        padding: 15px 40px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    #mainBack{
+        height: 100vh;
+    }
+    
+    #mainBack-contents{
+        height: 100vh;
+    }
+    
+    #mainh1div{
+        padding-top: 65px;
+    }
+    
+    #mainBack-contents div:nth-child(2){
+        padding: 0px 10px;
+    }
+    
+    #mainh1div h1{
+        font-size: 55px;
+        padding: 10px 0px;
+    }
+    
+    #mainBack-contents h3{
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+    
+    #mainBack-contents .button{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    
+    #mainBack-contents button{
+        margin: 0;
+    }
+    
+/*    Свяжитесь со мной*/
+    
+    .textinput{
+        font-size: 17px;
+        width: 270px;
+    }
+    
+    #politics{
+        font-size: 15px;
+    }
+    
+    #checkbox{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #callform h2{
+        font-size: 30px;
+        width: 92%;
+    }
+    
+    #callform h3{
+        font-size: 20px;
+        width: 92%;
+        align-self: center;
+    }
+    
+/*    Courses Section*/
+    
+    .header2{
+        font-size: 30px;
+    }
+    
+    .imgframe{
+        box-shadow: 0px 0px 10px white;
+    }
+    
+    .imgframe::before{
+        background: rgba(0, 0, 0, 0.0);
+    }
+    
+    .teacher{
+        clip-path: circle(100%);
+        background: black;
+        color: white;
+    }
+    
+}

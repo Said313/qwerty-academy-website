@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title>QWERTY Academy Team</title>
+        <link rel="icon"  type="image/png" sizes="16×16" href="images/logoicon.png">
+        
+        <link rel="stylesheet" type="text/css" href="styles/miniTemp.css">
+        
+        <link rel="stylesheet" type="text/css" href="styles/miniFaq.css">
+        
+        <script src="https://kit.fontawesome.com/f1c5f32f5c.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script>history.scrollRestoration = "manual"</script>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172863715-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-172863715-1');
+        </script>
+        
+    </head>
+
+    <body>
+        <div class="goup" id="goupId">
+            <a href="#">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+        
+        <div id="pulsercall">
+            <a href="#callform" id="call">
+                <i class="fa fa-phone"></i>
+            </a>
+        </div>
+        
+        <div id="header">
+            <div id="header-content">
+                <div id="brand"><a href="index.html"><img src="images/logo2.png"></a></div>
+            
+                <nav id="menu">
+                    <div class="menuLI">
+                        <a href="team.html">О нас</a>
+                    </div>
+                    
+                    <div class="menuLI">
+                        <a href="index.html#courseSection">Наши курсы&nbsp;
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </a>
+                        <div class="subnav">
+                            <a href="courses/nufypet.html">NUFYPET</a>
+                            <a href="courses/ielts.html">IELTS/TOEFL</a>
+                            <a href="courses/sat.html">SAT</a>
+                            <a href="courses/nis.html">NIS</a>
+                            <a href="courses/unt.html">ЕНТ</a>
+                            <a href="courses/englishAdults.html">Английский для взрослых</a>
+                            <a href="courses/englishKids.html">Английский для детей</a>
+                            <a href="courses/unt.html">Школьные предметы</a>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="menuLI">
+                        <a href="price.html">Прайс-лист</a>
+                    </div>
+                    
+                    <div class="menuLI">
+                        <a href="#">тестирование</a>
+                    </div>
+                    
+                    <div class="menuLI">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                    
+                    <div class="menuLI">
+                        <a href="#footer">Контакты</a>
+                    </div>
+            
+                </nav>
+                
+                <div id="icon-wrapper">
+                    <a class="icon" onclick="menuFunction()">
+                        <i class="fa fa-bars" id="menuIcon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id = "container">
+            
+            <h1>Частые вопросы</h1>
+            
+            <main>
+                
+<!--                1--------------------->
+                <div id="firstQ" class="question"  onclick="appear('#first')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="firstP"></i>
+                    </a>
+                    
+                    <h2>Что такое QWERTY Academy?</h2>
+                </div>
+                
+                <div id="firstA" class="answer">
+                    <p>QWERTY Academy – онлайн образовательный центр, предлагающий своим ученикам образовательные услуги по приоритетным и дополнительным направлениям. Авторские программы обучения от QWERTY Academy уникальны тем, что вам не нужно выходить из дома, чтобы получать качественное образование, так как занятия проводятся в онлайн формате.</p>
+                </div>
+                
+<!--                2----------------------->
+                <div id="secondQ" class="question"  onclick="appear('#second')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="secondP"></i>
+                    </a>
+                    
+                    <h2>Почему столь доступные цены?</h2>
+                </div>
+                
+                
+                <div id="secondA" class="answer">
+                    <p>Команда QWERTY Academy решила не только предоставлять образовательные услуги высокого качества, но и предоставлять их по доступным ценам. Мы идем к вам на встречу во время всемирного экономического кризиса, усугубляемого пандемией коронавируса, так как считаем это нашим долгом перед общественностью. </p>
+                </div>
+                
+<!--                3------------------------>
+                <div id="thirdQ" class="question"  onclick="appear('#third')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="thirdP"></i>
+                    </a>
+                    
+                    <h2>Чему учат в QWERTY Academy?</h2>
+                </div>
+                
+                <div id="thirdA" class="answer">
+                    <p>Подготовка в Назарбаев Университет, НИШ, IELTS, TOEFL, английский язык – и это не полный список того, что мы можем вам предложить. Кроме основных знаний по предметам, мы научим вас мыслить и смотреть на жизнь по-новому. Вас ждут бесплатные тренинги, вебинары, и воркшопы от студентов Казахстана, входящие в топ 1%.</p>
+                </div>
+                
+<!--                4----------------------->
+                <div id="fourthQ" class="question"  onclick="appear('#fourth')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="fourthP"></i>
+                    </a>
+                    
+                    <h2>Чему стремится команда QWERTY Academy? </h2>
+                </div>
+                
+                <div id="fourthA" class="answer">
+                    <p>Качество предоставляемых нами услуг – это не то, что о них думаем мы, а то, что думают наши ученики и их родители. Каждый член нашей команды, следуя Кодексу QA, ставит на первое место качество оказываемых нами услуг. Наша цель – это ваш результат!</p>
+                </div>
+                
+<!--                5------------------------->
+                <div id="fifthQ" class="question"  onclick="appear('#fifth')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="fifthP"></i>
+                    </a>
+                    
+                    <h2>Как работает система контроля качества обслуживания клиентов?</h2>
+                </div>
+                
+                <div id="fifthA" class="answer">
+                    <p>Главная цель QWERTY Academy – качество уроков и ваш академический успех! Чтобы предоставлять услуги высокого качества, мы внедрили современную систему мониторинга и поддержания высокого качества, что является нашей основной задачей. Согласно внешнему контролю качества, каждые две недели мы отправляем опрос ученикам и их родителям для выявления упущений в предоставлении урока. Это помогает нам исправляться и делать уроки более качественными. Более того, внутренняя система контроля и Кодекс академии обязывает каждого преподавателя поддерживать свой уровень компетентности путем непрерывного улучшения.</p>
+                </div>
+                
+                
+<!--                6-------------------------->
+                <div id="sixthQ" class="question"  onclick="appear('#sixth')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="sixthP"></i>
+                    </a>
+                    
+                    <h2>Как поступить в Назарбаев Университет?</h2>
+                </div>
+                
+                <div id="sixthA" class="answer">
+                    <p>Если вы задаете себе этот вопрос, то вы уже на правильном пути к цели. Учиться в Назарбаев Университете престижно, но, чтобы туда поступить нужно потрудиться. Вступительные экзамены в НУ отличаются от экзаменов в другие казахстанские вузы своим уникальным подходом к решению задач. По этой причине ученики традиционных школ, имея теоретическую базу, обычно не могут понять задачи и решить их. Только правильная подготовка поможет вам применить ваши знания для решения заданий на NUFYPET (для поступления на программу Foundation) и SAT (для поступления на бакалавриат). И да, помимо желания поступить в НУ, вы должны работать 24/7.</p>
+                </div>
+                
+<!--                7-------------------------->
+                <div id="seventhQ" class="question"  onclick="appear('#seventh')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="seventhP"></i>
+                    </a>
+                    
+                    <h2>Зачем нужен SAT?</h2>
+                </div>
+                
+                <div id="seventhA" class="answer">
+                    <p>SAT является обязательным условием для поступления в вузы США и в Назарбаев Университет на программы бакалавра. SAT – это путевка в хороший вуз, а далее в успешное будущее. Высшие математики, биохимики, и лингвисты в команде QWERTY Academy подготовят вас к сдаче этого экзамена используя авторскую программу подготовки. И да, мы подготовим вас так, чтобы вас пригласили сразу в несколько американских вуза.</p>
+                </div>
+                
+            
+<!--                8-------------------------->
+                <div id="eighthQ" class="question"  onclick="appear('#eighth')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="eighthP"></i>
+                    </a>
+                    
+                    <h2>Чем IELTS отличается от TOEFL?</h2>
+                </div>
+                
+                <div id="eighthA" class="answer">
+                    <p>Перед студентами часто возникает вопрос: какой из экзаменов выбрать?  Рассмотрим первое отличие – язык. TOEFL основан на американском английском, а IELTS на британском английском. Отличия между двумя вариациями английского языка не существенны, однако особенности произношения, грамматики, и орфографии могут вызвать трудности даже у самих носителей языка.  Оба теста состоят из 4 секции: Reading (чтение), Listening (слушание), Writing (письмо), Speaking (разговорная часть).  Следующее отличие – это то, что TOEFL является академическим тестом, в то время как IELTS предлагает два модуля: академический и общий.  Помимо этого, есть значимые отличия в системе оценивания. Максимальный балл в TOEFL – 120 баллов, а в IELTS – 9.0 баллов.  Вне зависимости какой экзамен вы выберете, наши уникальные программы подготовки помогут вам получить желаемый результат в резонно короткий период.</p>
+                </div>
+                
+                
+<!--                9-------------------------->
+                <div id="ninthQ" class="question"  onclick="appear('#ninth')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="ninthP"></i>
+                    </a>
+                    
+                    <h2>Как поступить в НИШ?</h2>
+                </div>
+                
+                <div id="ninthA" class="answer">
+                    <p>А вы знали, что при поступлении в НИШ конкурс на одно место составляет восемь человек?  Это означает, что средне-подготовленный школьник будет иметь всего лишь 12.5 % шансов на успех. Задача методистов программы подготовки в НИШ в QWERTY Academy — это увеличить шансы кандидата на поступление как минимум в пять раз. По части теста, претендентов ждут два сложных тестирования, которые покажут способности к изучению естественно-математических наук, а также знание трех языков – казахского, русского и английского.</p>
+                </div>
+                
+                
+<!--                10-------------------------->
+                <div id="tenthQ" class="question"  onclick="appear('#tenth')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="tenthP"></i>
+                    </a>
+                    
+                    <h2>Как подготовиться к ЕНТ и поступить в топ вузы Казахстана?</h2>
+                </div>
+                
+                <div id="tenthA" class="answer">
+                    <p>ЕНТ – это проверка знаний выпускника, дающая возможность поступить в казахстанские вузы на основе государственного гранта. Чтобы эффективно подготовиться к ЕНТ и получить хороший результат, необходимо продумать план подготовки. Нужно использовать правильные материалы для подготовки, писать тренировочные тесты, разбирать ошибки. Кроме этого, многие школьники имеют большие пробелы по школьной программе, поэтому очень важно работать над этими упущениями. <br><br>Методисты ЕНТ в QWERTY Academy – являются не только лучшими студентами в Назарбаев Университете, но и обладателями нагрудного знака «Алтын Белгi», которые набрали высокие баллы по ЕНТ. Именно они будут готовить тебя к поступлению в вуз твоей мечты!  </p>
+                </div>
+                
+                
+<!--                11-------------------------->
+                <div id="eleventhQ" class="question"  onclick="appear('#eleventh')">
+                    <a>
+                        <i class="fa fa-plus-circle" id="eleventhP"></i>
+                    </a>
+                    
+                    <h2>Как подтянуть свой английский язык? </h2>
+                </div>
+                
+                <div id="eleventhA" class="answer">
+                    <p>Английский язык – один из самых распространенных языков в мире, его знают во всех уголках земного шара. Это значит, что вы, зная этот язык, можете не только поступить в мировые вузы, но и путешествовать, читать книги и смотреть фильмы.  Существует много методов улучшить свой английский язык. Лучший из них – это жить среди носителей языка. А что если нет такой возможности? Тогда языком нужно заниматься с тем, кто владеет на уровне носителя языка.  Запишитесь на наши курсы английского языка и начните говорить на английском языке!  Все преподаватели английского языка в QWERTY Academy имеют практический опыт изучения языка, что позволило нам создать свою авторскую программу обучения, у которой нет равных во всем Казахстане.</p>
+                </div>
+                
+                
+            </main>
+            
+            
+            
+            <footer id ="footer">
+                <div id="footer-contents">
+                    <div>
+                        <img src="images/logo3.png" id="footerLogo">
+                    </div>
+                    <div id="contacts">
+                        <div><h4>Контакты</h4></div>
+                        <div>
+                            <div id="contactInfo">
+                                <div id="contactInfoWrap">
+                                    <h5>+7 (747) 739 83 01</h5>
+                                    <h5>+7 (747) 485 15 84</h5>
+<!--                                    <h5>qwerty-academy@gmail.com</h5>-->
+                                </div>
+                            </div>
+
+                            <div id="socialNet">
+                                <a class="social" href="https://bit.ly/2OhKaQZ">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a class="social" href="#">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a class="social" href="https://www.instagram.com/qwerty_academy/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="social" href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                
+                <h6>Qwerty Academy. 2020 &copy;</h6>
+            </footer>
+            
+        </div>
+    </body>
+    
+    <script>
+        
+        window.onscroll = function(){shadowAndGoup();}
+        
+        function shadowAndGoup(){
+            if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+                document.getElementById("header").className = "active-header";
+            } else{
+                document.getElementById("header").className = "";
+            }
+            
+            if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+                document.getElementById("goupId").className = "goup-active";
+            } else{
+                document.getElementById("goupId").className = "goup";
+            }
+        }
+        
+        function menuFunction(){
+            $("#menu").toggleClass("active-menu");
+            
+            $("#menuIcon").toggleClass("fa fa-bars").toggleClass("fa fa-times");
+        }
+        
+        function appear(idN){
+            $(idN + "P").toggleClass('fa fa-plus-circle').toggleClass('fa fa-minus-circle');
+            
+            $(idN + "A").slideToggle(500);
+        }
+    
+    </script>
+</html>
