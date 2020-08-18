@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWERTY UNT</title>
+
+    <link rel="stylesheet" type="text/css" href="/styles/temp.css">
+    
+
+    <script>
+        history.scrollRestoration = "manual"
+    </script>
+    <script src="https://kit.fontawesome.com/f1c5f32f5c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="/styles/courses.css">
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172863715-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-172863715-1');
+    </script>
+
+    
+</head>
+
+<body>
+    
+@@include('../components/callToAction.html')
+
+@@include('../components/header.html')
+    
+    <script>
+        window.onscroll = function(){shadowAndGoup();}
+        
+        function shadowAndGoup(){
+            if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+                document.getElementById("header").className = "active-header";
+            } else{
+                document.getElementById("header").className = "";
+            }
+            
+            if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+                document.getElementById("goupId").className = "goup-active";
+            } else{
+                document.getElementById("goupId").className = "goup";
+            }
+        }
+
+        function menuFunction(){
+            $("#menu").toggleClass("active-menu");
+            
+            $("#menuIcon").toggleClass("fa fa-bars").toggleClass("fa fa-times");
+        }
+    </script>
+
+    <div class="mainPic" height="1000px">
+        <div class="ielts-writing">
+            <h3 id="untRight">ЕНТ<br><br> Школьные Предметы</h3>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid">
+
+
+
+        <div class="container">
+
+            <br>
+            <h2>
+                Школьные предметы
+            </h2>
+            <div class=" row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <p>Программа обучения по школьным предметам – это уникальные уроки для тех школьников, кто хочет подтянуть свои знания и выйти за рамки школьной программы.
+                    </p>
+                </div>
+                <div class="col-md-4 ">
+                    <p>Хотите стать лучшим в классе по математике, физике, химии, русскому, английскому и другим предметам? Тогда записывайтесь в наш образовательный центр, и мы гарантируем вам высокую академическую успеваемость!</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid">
+
+
+            <div class="row relative">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <img src="/assets/images/two-blue-pencil-on-top-of-white-notebook-730706.jpg" alt="picture" width="100%">
+                </div>
+                <div class="col-md-5">
+
+                    <div class="upper">
+                        <h2>
+                            Уроки математики, физики, химии
+                        </h2>
+                        <p>Каждый урок состоит из двух частей: теории и практики. <br><br> В первой половине урока ученики познают тему путем разбора теории, записывают теоремы и основные формулы. Во второй половине урока студенты закрепляют теорию путем
+                            решения сложных задач. <br><br> Решение каждой задачи тщательно разбирается с преподавателем, что помогает ученикам познать практичные методы решения нестандартных задач. Наши занятия по математике наполнены большим объемом
+                            интерактива между преподавателем и учениками. <br><br> Мы построили наши уроки таким образом, чтобы ученики могли эффективно осваивать математику увлекательно и быстро!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md">
+                    <h2>как построены наши уроки</h2>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+
+            <div class="row centered">
+                <div class="col-md-4 gray">
+                    <i style="font-size:120px;color:#FAC035" class="fa fa-book circle-icon"></i><br>
+                    <p><b>Уникальный учебный план </b><br><br> Наши интерактивные классы помогут вам полюбить изучаемый предмет и получить большой объем знаний.</p>
+                </div>
+                <div class="col-md-4 non-gray">
+                    <i style="font-size:120px;color:#FAC035" class="fa fa-desktop circle-icon"></i><br>
+                    <p><b>Нестандартный подход</b><br><br> Наши занятия совсем не похожи на школьные уроки. Мы поощряем свободу действий в учениках и подстраиваем уроки под личные интересы учеников.</p>
+                </div>
+                <div class="col-md-4 gray">
+                    <i style="font-size:120px;color:#FAC035; " class="far fa-comment circle-icon"></i><br>
+                    <p><b>Постоянный контакт с родителями</b><br><br> Мы всегда держим вас в курсе о прогрессе вашего ребенка. Вы будете знать, как он выполняет домашние задания и как успешно усваивает материал.</p>
+                </div>
+            </div>
+            <br><br>
+            <h2>
+                Обучаясь у нас школьным предметам, вы сможете:
+                <br>
+            </h2>
+
+            <div class="listed">
+
+                <br>
+                <i style="font-size:40px;color:#FAC035; " class="far fa-check-circle inlined"></i>
+                <h4>Сформировать умение оперировать понятиями</h4>
+                <br>
+
+                <i style="font-size:40px;color:#FAC035; " class="far fa-check-circle inlined"></i>
+                <h4>Думать абстрактно и критически, решать логические задачи </h4><br>
+
+                <i style="font-size:40px;color:#FAC035; " class="far fa-check-circle inlined"></i>
+                <h4>Анализировать задачу и подбирать эффективный метод решения</h4><br>
+
+                <i style="font-size:40px;color:#FAC035; " class="far fa-check-circle inlined"></i>
+                <h4>Говорить и писать конструктивно и без ошибок</h4><br>
+
+                <i style="font-size:40px;color:#FAC035; " class="far fa-check-circle inlined"></i>
+                <h4>Преуспеть в школьной программе</h4>
+
+            </div>
+        </div>
+        <br><br>
+        <h2>курс обучения</h2>
+        <div class="container-fluid photoWhite">
+
+            <br>
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <p>Тестирование знаний: <br><b><span class="white-back">каждые две недели</span></b></p>
+                </div>
+                <div class="col-md-4">
+                    <p>Продолжительность занятий: <br><b><span class="white-back">80 минут</span></b></p>
+                </div>
+                <div class="col-md-4">
+                    <p>Языки преподавания: <br><b><span class="white-back">русский, английский, казахский, узбекский</span></b></p>
+                </div>
+            </div>
+            <hr style="background-color: white; height: 10px">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded-circle" src="/assets/images/gulnaz.jpg" alt="" width="100%">
+
+                        <div class="overlay">
+
+                            <p>
+                                Студент 3 курса Назарбаев Университета, Биология.<br>FLEX2017</p>
+                            <!-- <br>Обладатель знака «Алтын Белгi» -->
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="card-title">Гулноза Адилметова</h3>
+                    <p>
+                        <em>химия и биология</em>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded-circle" src="/assets/images/adkham.jpg" alt="" width="100%">
+
+                        <div class="overlay">
+
+                            <p>
+                                Студент 3 курса НУ, Механическая и Аэрокосмическая Инженерия.
+                                <!-- <br> Обладатель знака «Алтын Белгi» -->
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="card-title">Адхамжон Юлдашов</h3>
+                    <p>
+                        <em>Математика и количественные характеристики</em>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded-circle" src="/assets/images/maftuna.jpg" alt="" width="100%">
+
+                        <div class="overlay">
+
+                            <p>
+                                Студент 3 курса Назарбаев Университета, Лингвистика.
+                                <!-- <br>Обладатель знака «Алтын Белгi» -->
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <h3 class="card-title ">Мафтуна Жорабекова</h3>
+                    <p>
+                        <em>математика</em>
+                    </p>
+
+                </div>
+                <div class="col-md-2">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded-circle" src="/assets/images/shokh.jpg" alt="" width="100%">
+
+                        <div class="overlay">
+
+                            <p>
+                                Студент 2 курса НУ, Механическая и Аэрокосмическая Инженерия.
+                                <!-- <br> Обладатель знака «Алтын Белгi» -->
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="card-title">Шахзод Хусниддинов</h3>
+                    <p>
+                        <em>физика</em>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <div class="hovereffect">
+                        <img class="img-responsive rounded-circle" src="/assets/images/said2.jpg" alt="" width="100%">
+
+                        <div class="overlay">
+
+                            <p>
+                                Студент 3 курса Назарбаев Университета, Компьютерная Наука.
+                                <!-- <br> Обладатель знака «Алтын Белгi» -->
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="card-title">Саидгаффор Сабыров</h3>
+                    <p>
+                        <em>физика</em>
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid btn-sign">
+        <button class="btn btn-danger fixed" onclick="location.href='https:\\wa.me/77477398301';">Записаться</button>
+
+    </div>
+    <br>
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item " data-ride="carousel">
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+                <div class="col-md-2" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/assets/images/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg" height="120px" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>NUFYPET</b></h4>
+                            <p class="card-text">Поступление в НУ</p>
+                            <br>
+                            <br>
+                            <a class="btn btn-warning" href="/courses/nufypet.html">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/assets/images/nisCourse.jpg" height="120px" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>НИШ</b></h4>
+                            <p class="card-text">Поступление в НИШ</p>
+                            <br>
+                            <a class="btn btn-warning" href="/courses/nis.html">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/assets/images/crop-woman-working-on-laptop-and-notebook-4468077.jpg" height="120px" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>IELTS</b></h4>
+                            <p class="card-text">Поступление в НУ</p>
+                            <br><br>
+                            <a class="btn btn-warning" href="/courses/ielts.html">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/assets/images/satCourse.jpg" height="120px" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>SAT</b></h4>
+                            <p class="card-text">Поступление в НУ</p>
+                            <br><br>
+                            <a class="btn btn-warning" href="/courses/sat.html">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" height="120px" src="/assets/images/children-having-their-exam-4019758.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>Английский для Детей</b></h4>
+                            <p class="card-text">Уровни Primary 1-5</p>
+                            <br>
+                            <a class="btn btn-warning" href="/courses/englishKids.html">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/assets/images/englishCourse.jpg" height="120px" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><b>Английский язык</b></h4>
+                            <p class="card-text">Уровни от Beginner до Advanced</p>
+                            <a class="btn btn-warning" href="/courses/englishAdults.html">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.First slide-->
+
+
+        </div>
+        <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+    
+@@include('../components/footer.html')
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
